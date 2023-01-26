@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "buri buri zaemon"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63cae6a1d7415469ad9975a0
+
+###
+
+PUT http://localhost:3001/todo/complete/63cae5b13b8e20faf0d0a6b3
